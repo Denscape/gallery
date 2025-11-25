@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Black Clover</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="sticky-top z-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-0 m-0">
+                    <div id="topBar" class="d-flex align-items-center bg-light w-100">
+                        <div class="ms-5">
+                            <a class="navbar-brand d-flex align-items-center text-decoration-none" href="#">
+                                <img id="siteLogo" src="assets/blackCloverB.jpg" alt="Black Clover logo"
+                                    class="site-logo">
+                            </a>
+                        </div>
+                        <div class="mx-auto">
+                            <ul id="mainNav" class="nav justify-content-center fw-bold">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#gallery">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="me-4">
+                            <button id="modeBtn" class="btn btn-outline-secondary" onclick="changeMode()"
+                                type="button">Mode</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="home" class="hero-section">
+        <div class="container-fluid p-0 ">
+            <img src="assets/blackCloverCover.jpg" alt="black clover cover" class="w-100 d-block object-fit-cover">
+        </div>
+    </div>
+    <div id="gallery" class="container py-5">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div class="row" id="cardContainer">
+        </div>
+    </div>
+    <div id="about" class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-3">About</h2>
+                        <p class="card-text text-center">
+                            Black Clover is a fantasy anime set in a world where magic defines everything, yet its main
+                            hero,
+                            Asta, is born without any magic at all. Together with his talented rival and best friend
+                            Yuno, he
+                            dreams of becoming the Wizard King, the strongest mage in the Clover Kingdom. After
+                            receiving a
+                            mysterious five-leaf clover grimoire that grants him anti-magic powers, Asta joins the Black
+                            Bulls
+                            squad and faces powerful enemies, dark secrets, and intense battles that test his
+                            determination and
+                            bonds with his friends. The series blends high-energy fights, emotional character growth,
+                            and
+                            inspiring underdog themes, making it a favorite for many shonen anime fans around the world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="container-fluid p-0">
+        <div id="siteFooter" class="p-4 m-4 text-center">
+            © 2025 Black Clover &nbsp;|&nbsp; All rights reserved.
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="data.js"></script>
+    <script src="gallery.js"></script>
+    
+</body>
+
+</html>
